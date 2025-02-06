@@ -1,12 +1,14 @@
 return {
   -- add theme
-  { "folke/tokyonight.nvim" },
-
+  -- { "rose-pine/neovim", name = "rose-pine" },
+  { "rebelot/kanagawa.nvim", name = "kanagawa", opts = {
+    transparent = true,
+  } },
   -- Configure LazyVim to load theme
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "tokyonight-night",
+      colorscheme = "kanagawa-wave",
     },
   },
 }
